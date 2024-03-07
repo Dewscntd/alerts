@@ -11,7 +11,7 @@
     </mat-menu>
   </div>
 </div>
-  <mat-divider></mat-divider>
+
 <div *ngIf="(alerts$ | async)?.length !== 0; then alertList else empty" class="cards-container"></div>
 
 <ng-template #alertList>
