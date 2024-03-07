@@ -12,7 +12,7 @@ import { MatIcon } from "@angular/material/icon";
 import { MatButton, MatIconButton } from "@angular/material/button";
 import { RouterModule, RouterOutlet } from "@angular/router";
 import { NgIf, NgOptimizedImage } from "@angular/common";
-import { MatMenu, MatMenuItem } from "@angular/material/menu";
+import { MatMenu, MatMenuItem, MatMenuTrigger } from "@angular/material/menu";
 
 @NgModule({
   declarations: [LayoutComponent],
@@ -31,7 +31,8 @@ import { MatMenu, MatMenuItem } from "@angular/material/menu";
     NgOptimizedImage,
     MatMenu,
     MatMenuItem,
-    NgIf
+    NgIf,
+    MatMenuTrigger
   ],
   exports: [
     LayoutComponent

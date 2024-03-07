@@ -13,4 +13,7 @@ export class LayoutComponent {
     return this.authService.isAuthenticated();
   }
 
+  onLogout() {
+    this.authService.logout();
+  }
 }
